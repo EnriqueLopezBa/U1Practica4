@@ -25,6 +25,7 @@ public class vtn extends javax.swing.JFrame {
         jToolBar1 = new javax.swing.JToolBar();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
         jDesktopPane1 = new javax.swing.JDesktopPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -53,6 +54,10 @@ public class vtn extends javax.swing.JFrame {
         });
         jToolBar1.add(jButton2);
 
+        jLabel1.setForeground(new java.awt.Color(255, 51, 51));
+        jLabel1.setText("REGISTRO DE UNA PERSONA CON LOS COMPONENTES REQUERIDOS");
+        jToolBar1.add(jLabel1);
+
         javax.swing.GroupLayout jDesktopPane1Layout = new javax.swing.GroupLayout(jDesktopPane1);
         jDesktopPane1.setLayout(jDesktopPane1Layout);
         jDesktopPane1Layout.setHorizontalGroup(
@@ -68,10 +73,8 @@ public class vtn extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jToolBar1, javax.swing.GroupLayout.PREFERRED_SIZE, 361, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 405, Short.MAX_VALUE))
             .addComponent(jDesktopPane1)
+            .addComponent(jToolBar1, javax.swing.GroupLayout.DEFAULT_SIZE, 766, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -134,6 +137,7 @@ public class vtn extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JDesktopPane jDesktopPane1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JToolBar jToolBar1;
     // End of variables declaration//GEN-END:variables
 }
